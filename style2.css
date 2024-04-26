@@ -1,0 +1,98 @@
+.element::before.old{
+   content: '';
+   display: block;
+   position: absolute;
+   top:0;
+   left:0;
+   height: 100%;
+   width: 100%;
+   background-image: url('./background.jpg');
+   background-repeat: repeat;   
+   background-size: 300px 200px;
+   background-position: center;
+   background-attachment: fixed;
+   opacity:0.3;
+   z-index: -1;
+}
+.element p.old{
+   text-align: center;
+   font-size: 60px;
+   font-weight: 800;
+   margin-top: 300px;
+} 
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ccc;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.headerB {
+  padding: 8px;
+  text-align: center;
+  background: #706136;
+  color: white;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: Tahoma, Verdana, sans-serif;
+  font-style: italic;
+  text-shadow: 2px 2px 8px #ffff00;
+  letter-spacing: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #706136;
+  color: white;
+}
